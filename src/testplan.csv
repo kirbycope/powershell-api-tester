@@ -1,0 +1,5 @@
+"Id","Method","Endpoint","Authentication","Body","ExpectedStatus","Comment"
+1,"POST","posts","Unauthenticated","title=foo&body=bar&userId=1","Created","This is the C of CRUD (Create)"
+2,"GET","posts/1","Unauthenticated",,"OK","This is the R of CRUD (Read)"
+3,"PUT","posts/1","Unauthenticated","title=foo&body=bar&userId=1","OK","This is the U of CRUD (Update)"
+4,"DELETE","Posts/1","Unauthenticated",,"OK","This is the D of CRUD (Delete)"
